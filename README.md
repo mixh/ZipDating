@@ -1,7 +1,8 @@
 # ZipDating
-view at https://zipdate-22ce74903b8d.herokuapp.com/
-Dating Web App that find dates on the basis of zip code and similarities 
+Have a look at https://zipdate-22ce74903b8d.herokuapp.com/
 
+Dating Web App that find dates on the basis of zip code and similarities 
+I used node, mongodb, express, handlebars and heroku and atlas for development
 
 ## How to navigate the application
 - once live the website would show the features and purpose on the homepage, it would also have links for login and registration

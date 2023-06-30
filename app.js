@@ -70,5 +70,5 @@ const PORT = process.env.PORT || 5001;
 
 app.listen(PORT, () => {
   console.log("We've now got a server!");
-  console.log("Your routes will be running on http://localhost:3000");
+  console.log("Your routes will be running on http://localhost:5001");
 });

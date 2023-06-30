@@ -45,20 +45,19 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use("/login", async(req,res,next) =>{
-  if(req.session && req.session.userId){
-    return res.redirect("/home/" + req.session.userId)
-  }
-  next();
-})
-
-app.use("/register", async(req,res,next) => {
+app.use("/login", async (req, res, next) => {
   if (req.session && req.session.userId) {
     return res.redirect("/home/" + req.session.userId);
   }
   next();
-})
+});
 
+app.use("/register", async (req, res, next) => {
+  if (req.session && req.session.userId) {
+    return res.redirect("/home/" + req.session.userId);
+  }
+  next();
+});
 
 app.use(express.static("uploads"));
 
@@ -67,7 +66,9 @@ app.set("view engine", "handlebars");
 
 configRoutes(app);
 
-app.listen(3000, () => {
+const PORT = process.env.PORT || 5001;
+
+app.listen(PORT, () => {
   console.log("We've now got a server!");
   console.log("Your routes will be running on http://localhost:3000");
 });

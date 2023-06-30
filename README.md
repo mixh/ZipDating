@@ -5,6 +5,8 @@ Dating Web App that find dates on the basis of zip code and similarities
 
 I used node, mongodb, express, handlebars and heroku and atlas for development of this website
 
+I initially created this web for CS546 course i took at Stevens, take a look at the repo for the project that we submitted.
+
 ## How to navigate the application
 - once live the website would show the features and purpose on the homepage, it would also have links for login and registration
 - you could login using the prior seeded database file it has the emails and passwords for login (you could use email = "alicesmith@example.com" and Password="Password1234$") 

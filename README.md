@@ -9,7 +9,8 @@ I initially created this web for CS546 course i took at Stevens, take a look at 
 
 ## How to navigate the application
 - once live the website would show the features and purpose on the homepage, it would also have links for login and registration
-- you could login using the prior seeded database file it has the emails and passwords for login (you could use email = "alicesmith@example.com" and Password="Password1234$") 
+- you could login using the prior seeded database file it has the emails and passwords for login
+- # (you could use email = "alicesmith@example.com" and Password="Password1234$") 
 - if you want to register a new user you could through "/register" or register buttons available on homepage and login pages
   - keep in mind our application only shows matches which have some commanility like university, place of work, a place you want to visit, gym/class if a new user is registered and the db has no other users that have these commanilities we wont be able to show any potential matches
   - after successful registration you would be redirected to login page to enter the website
